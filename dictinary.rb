@@ -1,9 +1,9 @@
 # encoding: cp866
 
-hh = {'cat' => '��誠', 'dog' => 'ᮡ���', 'girl' => '����誠'}
+hh = {'cat' => 'кошка ', 'dog' => 'собака', 'girl' => 'девушка'}
 
 loop do
-	print "������ ᫮��: "
+	print "Введите слово: "
 	word = gets.strip
 
 puts hh[word]
